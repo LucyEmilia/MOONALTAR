@@ -14,7 +14,7 @@
 	<!--Links to external things-->
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/main.css">
-	<link rel="stylesheet" href="http://brick.a.ssl.fastly.net/Roboto:400">
+	<link rel="stylesheet" href="http://brick.a.ssl.fastly.net/Raleway Dots:400">
 
 	<!--Favicons and Android theme colour-->
 	<link rel="apple-touch-icon" sizes="57x57" href="assets/favicons/apple-icon-57x57.png">
@@ -120,7 +120,7 @@
 		<div class="video-position-guide">
 			<div class="video-position">
 				<div class="video-wrapper">
-					<iframe src="https://player.vimeo.com/video/162068837?autoplay=1&loop=1&color=ff0179&title=0&byline=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+					<iframe src="https://www.youtube.com/embed/eQDAdXbSNMI?autoplay=1&loop=1&color=000000&title=0&byline=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 				</div>
 			</div>
 		</div>
