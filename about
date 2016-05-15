@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!--Change these things-->
+	<meta name="description" content="">
+	<meta name="author" content="MOON ALTAR band and music. ALternative pop band in Brighton and London.">
+	<title>MOON ALTAR – About</title>
+
+	<!--Links to external things-->
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="http://brick.a.ssl.fastly.net/Raleway Dots:400">
+
+	<!--Favicons and Android theme colour-->
+	<link rel="apple-touch-icon" sizes="57x57" href="assets/favicons/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="assets/favicons/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="assets/favicons/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="assets/favicons/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="assets/favicons/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="assets/favicons/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="assets/favicons/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="assets/favicons/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="assets/favicons/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="assets/favicons/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
+	<link rel="manifest" href="/manifest.json">
+	<meta name="msapplication-TileColor" content="#FFFFFF">
+	<meta name="msapplication-TileImage" content="assets/favicons/ms-icon-144x144.png">
+	<meta name="theme-color" content="#000000">
+
+	<!--[if IE]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+	<style>
+		html {
+			/* Change background colours here*/
+			background-color: #000000;
+		}
+		
+		nav a {
+			border-bottom-color: #000000;
+			color: #B6FCE6;
+			font-size: 3rem;
+		}
+		
+		h3,
+		p {
+			text-align: left;
+			font-weight: normal;
+		}
+		
+		h3 a {
+			color: #B6FCE6;
+			display: block;
+			font-size: 2rem;
+			text-decoration: none;
+			vertical-align: top;
+		}
+		
+		h3 a:hover {
+			color: white;
+		}
+		
+		p {
+			color: white;
+			font-size: 1.3rem;
+		}
+		
+		@media (min-width: 700px) {
+			nav a {
+				font-size: 5rem;
+			}
+			h3,
+			p {
+				display: inline-block;
+			}
+			h3 {
+				text-align: right;
+			}
+			p {
+				margin: 0 0 0 3rem;
+			}
+		}
+	</style>
+
+</head>
+
+<body>
+	<!--Needed for smooth transitions-->
+	<script>
+		document.body.className += ' fade-out';
+	</script>
+	<section>
+		<nav>
+			<a href="/">MOON ALTAR</a>
+		</nav>
+		<article>
+			<h3><a href="mailto:moonaltarband@gmail.com?subject=Hello MOON ALTAR">contact</a><a href="https://moonaltar.bandcamp.com/" target="_blank">releases</a><a href="https://soundcloud.com/moon-altar" target="_blank">listen</a></h3>
+			<p>Venture to the underside of the ancient moon where natural
+				<br>disaster and debris flow through the golden forest,
+				<br>and the underbelly of womankind exists. The trials
+				<br>and tribulations of failed witches find resolution 
+				<br>in knowing that everything is all part of an ancient 
+				<br>natural pact- an automany. A pact which once began 
+				<br>and will never cease to exist. A mother gives birth
+				<br>to a child. Hail, to the moon!</p>
+		</article>
+	</section>
+	<!--Needed for smooth transitions-->
+	<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+	<script>
+		$(function () {
+			$('body').removeClass('fade-out');
+		});
+	</script>
+
+</body>
+
+</html>
