@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!--Change these things-->
+	<meta name="description" content="MOON ALTAR band and music. Alternative pop band in Brighton and London.">
+	<meta name="author" content="Lucy Powell">
+	<title>MOON ALTAR</title>
+
+	<!--Links to external things-->
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="http://brick.a.ssl.fastly.net/Roboto:400">
+
+	<!--Favicons and Android theme colour-->
+	<link rel="apple-touch-icon" sizes="57x57" href="assets/favicons/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="assets/favicons/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="assets/favicons/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="assets/favicons/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="assets/favicons/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="assets/favicons/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="assets/favicons/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="assets/favicons/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="assets/favicons/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="assets/favicons/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
+	<link rel="manifest" href="/manifest.json">
+	<meta name="msapplication-TileColor" content="#FFFFFF">
+	<meta name="msapplication-TileImage" content="assets/favicons/ms-icon-144x144.png">
+	<meta name="theme-color" content="#000000">
+
+	<!--[if IE]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+	<style>
+		html {
+			/* Change background colours here*/
+			background-color: #4b0082;
+		}
+		
+		nav a {
+			font-size: 2rem;
+			float: left;
+			color: black;
+			border-bottom-color: #000000;
+		}
+		
+		.video-position-guide {
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			z-index: -1000;
+		}
+		
+		.video-position {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			width: 90%;
+			max-width: 800px;
+			-webkit-transform: translateX(-50%)translateY(-50%);
+			transform: translateX(-50%)translateY(-50%);
+		}
+		
+		.video-wrapper {
+			position: relative;
+			width: 100%;
+			height: 0;
+			padding-bottom: 56.25%;
+		}
+		
+		.video-wrapper > * {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+		}
+		
+		.video-position:before {
+			content: " ";
+			position: absolute;
+			z-index: -10;
+			top: -6px;
+			left: -6px;
+			right: -6px;
+			bottom: -6px;
+			border: 10px solid #ed2875;
+		}
+		
+		@media (min-width: 700px) {
+			nav a {
+				font-size: 2.5rem;
+			}
+		}
+	</style>
+
+</head>
+
+<body>
+	<!--Needed for smooth transitions-->
+	<script>
+		document.body.className += ' fade-out';
+	</script>
+	<section>
+		<nav>
+			<a href="/">MOON ALTAR</a>
+			<a href="/about">about</a>
+		</nav>
+		<div class="video-position-guide">
+			<div class="video-position">
+				<div class="video-wrapper">
+					<iframe src="https://player.vimeo.com/video/162068837?autoplay=1&loop=1&color=ff0179&title=0&byline=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--Needed for smooth transitions-->
+	<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+	<script>
+		$(function () {
+			$('body').removeClass('fade-out');
+		});
+	</script>
+
+</body>
+
+</html>
