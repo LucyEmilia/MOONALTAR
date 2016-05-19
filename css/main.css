@@ -1,7 +1,7 @@
 /*Structure*/
 
 body {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Raleway Dots', cursive;
 	font-weight: 400;
 	opacity: 1;
 	-webkit-transition: 1s opacity;
@@ -34,7 +34,7 @@ nav {
 }
 
 nav a {
-	border-bottom: 4px solid black;
+	border-bottom: 2px solid black;
 	text-decoration: none;
 }
 nav a:hover {
