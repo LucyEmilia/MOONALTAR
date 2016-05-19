@@ -1,0 +1,46 @@
+/*Structure*/
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	opacity: 1;
+	-webkit-transition: 1s opacity;
+	transition: 1s opacity;
+}
+.fade-out {
+	opacity: 0;
+	-webkit-transition: none;
+	transition: none;
+}
+section {
+	box-sizing: border-box;
+	margin: 0 auto;
+	max-width: 1200px;
+	padding: 0 1rem;
+	text-align: center;
+	width: 100%;
+}
+article {
+	margin: 10% auto;
+	max-width: 800px;
+	width: 100%;
+}
+
+/*Navigation*/
+
+nav {
+	overflow: auto;
+	padding: 2rem 0;
+}
+
+nav a {
+	border-bottom: 4px solid black;
+	text-decoration: none;
+}
+nav a:hover {
+	border-bottom-color: white;
+}
+
+nav a:nth-child(2) {
+	float: right;
+}
